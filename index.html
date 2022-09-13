@@ -12,10 +12,10 @@
 <form action="#">
     <!--First name, lastname, email, password fields-->
     <fieldset>
-        <label>Enter your First Name: <input type="text" required /></label>
-        <label>Enter your Last Name: <input type="text" required /></label>
-        <label>Enter your Email: <input type="email" required /></label>
-        <label>Enter your Password: <input type="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label>Enter your First Name: <input type="text" name="firstName" required /></label>
+        <label>Enter your Last Name: <input type="text" name="lastName" required /></label>
+        <label>Enter your Email: <input type="email" name="email" required /></label>
+        <label>Enter your Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
     </fieldset>
     <fieldset>
         <label><input type="radio" name="account-type"> Personal account</label>
@@ -28,7 +28,7 @@
     <label>
         How did you hear from us?
     
-    <select>
+    <select name="referrer">
         <option value="">(select one)</option><!--This will be empty-->
         <option value="1">news</option>
         <option value="2">blog</option>
