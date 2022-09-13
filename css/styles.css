@@ -8,6 +8,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
+h1,p{
+    margin: lem auto;
+    text-align: center;
+}
 
 label{
     display: block;
