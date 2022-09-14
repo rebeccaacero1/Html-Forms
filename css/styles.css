@@ -67,5 +67,8 @@ input[type="submit"]{
     margin: 1em auto;
 }
 input[type="file"]{
-    padding: 5px 5px;
+    padding: 1px 2px;
+}
+*{
+    text-decoration: none;
 }
