@@ -38,7 +38,7 @@ fieldset:last-of-type{
 }
 input, textarea, select{
     width: 100%;
-    margin: 10px;
+    margin: 10px 0 0;
 }
 label{
     display: block;
