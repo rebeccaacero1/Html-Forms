@@ -43,3 +43,6 @@ input, textarea, select{
 label{
     display: block;
 }
+.inline{
+    width: unset;
+}
